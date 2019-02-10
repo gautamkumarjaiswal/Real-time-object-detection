@@ -17,5 +17,9 @@ Run the Training
 
 If everything is working properly, the object detector will initialize for about 10 seconds and then display a window showing any objects it’s detected in the image!
 
+
+![Alt Text](detected.jpg)
+      
+
  
 

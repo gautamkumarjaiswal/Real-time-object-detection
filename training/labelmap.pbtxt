@@ -1,0 +1,34 @@
+item {
+  id: 1
+  name: 'monitor'
+}
+
+item {
+  id: 2
+  name: 'keyboard'
+}
+
+item {
+  id: 3
+  name: 'printer'
+}
+
+item {
+  id: 4
+  name: 'bottle'
+}
+
+item {
+  id: 5
+  name: 'mouse'
+}
+
+item {
+  id: 6
+  name: 'telephone'
+}
+
+item {
+  id: 6
+  name: 'calculator'
+}

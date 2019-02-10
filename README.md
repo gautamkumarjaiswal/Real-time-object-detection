@@ -4,14 +4,14 @@ In this repositery i have developed real-time-object-detection using tensorflow.
 
 In this tutorial, i assume that you have successfully installed Object Detection API. You can test it out and verify your installation is working by launching the object_detection_tutorial.ipynb script with Jupyter. In this tutorial we used Faster-RCNN-Inception-V2-COCO model from TensorFlow's model zoo. Download and open faster_rcnn_inception_v2_coco_2018_01_28.tar.gz file with a file archiver such as WinZip or 7-Zip and extract the faster_rcnn_inception_v2_coco_2018_01_28 folder to the object_detection under C:\...\models\research\object_detection.
 
-Run the Training
+# Run the Training
  From the \object_detection directory, issue the following command to begin training:
  
  python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
  
  If everything has been set up correctly, TensorFlow will initialize the training. The initialization can take up to 30 seconds before the actual training begins.
  
- Classify new image using trained model:
+ # Classify new image using trained model:
  To test your object detector, move a picture of the object or objects into the \object_detection folder, and change the IMAGE_NAME variable in the Object_detection_image.py to match the file name of the picture. 
  To run any of the scripts, type “idle” in the Anaconda Command Prompt (with the “tensorflow1” virtual environment activated) and press ENTER. This will open IDLE, and from there, you can open any of the scripts and run them.
 

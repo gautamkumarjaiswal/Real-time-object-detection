@@ -20,7 +20,7 @@ If everything is working properly, the object detector will initialize for about
 
 ![Alt Text](detected.jpg)
 
-Alternatively, you can use a video of the objects (using Object_detection_video.py), or just plug in a USB webcam and point it at the objects (using Object_detection_webcam.py). 
+Alternatively, you can use a video of the objects (using Object_detection_video.py), or just plug in a USB webcam and point it at the objects (using Object_detection_webcam.py). For more detail, please visit https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
       
 
  
